@@ -5,7 +5,7 @@
 #docker buildx rm --name cachegrand-builder
 
 
-FROM ubuntu:jammy
+FROM ubuntu:22.10
 MAINTAINER d.albano@cachegrand.io
 
 # General dpkg and packages settings
